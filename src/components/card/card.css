@@ -1,0 +1,8 @@
+.card-for-example{
+    text-align: -webkit-left;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.16);
+    background-color: white;
+}
