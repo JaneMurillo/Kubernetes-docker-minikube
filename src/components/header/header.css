@@ -1,12 +1,9 @@
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     padding: 1% 2% 0 4%;
-    position: absolute;
     top: 0;
-    left: 0;
     width: 94%;
   }
   
@@ -17,9 +14,26 @@ header {
     list-style: none;
     z-index: 1;
     gap: 4vw;
+    align-items: self-end;
   }
   
-  
+  .logo-div {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+  }
+
+  .Logo {
+    z-index: 1;
+    width: 46px;
+    height: 42px;
+  }
+
+  .head-a-title{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
   .menu-title {
     position: absolute;
     transform: scale(0);
@@ -108,7 +122,6 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     z-index: 5;
-    cursor: pointer;
   }
   
   @media only all and (max-width: 830px) {

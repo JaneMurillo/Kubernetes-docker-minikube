@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: react-app
-    replicas: 2
+    replicas: 4
     template:
       metadata:
         labels:
@@ -24,7 +24,7 @@ spec:
   type: NodePort
   selectors:
     app: react-app
-  port: 
+  ports: 
     -name: syst
     port: 5000
     targetPort: 5000

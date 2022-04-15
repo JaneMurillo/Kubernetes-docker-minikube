@@ -31,10 +31,16 @@ h4 {
   font-weight: bold;
 }
 
-p,
+p {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 20px 0;
+}
+
 li {
   font-family: 'Roboto';
   font-size: 14px;
+  font-weight: bold;
   margin: 20px 0;
 }
 
