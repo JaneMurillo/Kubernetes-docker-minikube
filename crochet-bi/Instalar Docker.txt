@@ -1,0 +1,15 @@
+Instalar Docker
+
+Para su instalación:
+
+1. Descargar el instalador del url 'https://www.docker.com/products/docker-desktop/'
+2. Una vez descargado el instalador, preferentemente dejar las configuraciones default y dar permisos a la máquina
+3. Una vez instalado, docker pedirá reiniciar la computadora (permitir)
+3. Luego, preguntará si se aceptan los terminos y condiciones, para de esta manera, 
+también pedir que se instale el Kernel de Linux
+4. Para instalar el kernel, se da click en el link que te proporciona Docker
+5. En la página aparece el link para descargar el instalador de WSL 2
+6. Hay que instalar y reiniciar la computadora
+
+7. Por último, si se quiere permitir Kubernetes desde la misma aplicación de Docker, 
+ir al apartado de Configuraciones > Kubernetes y dar click en 'Enabled'

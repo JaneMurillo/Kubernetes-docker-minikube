@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crochet-bi-depl
+spec:
+  selector:
+    matchLabels:
+      app: react-app
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: react-app
+    spec:
+      containers:
+        - name: react-app
+          image: janemurcomp/crochet-bi
+...
+apiVersion: v1
+kind: Service
+metadata:
+  name: crochet-bi-srv
+spec: 
+  type: NodePort
+  selectors:
+    app: react-app
+  ports: 
+    -name: croch-bi
+    port: 3000
+    targetPort: 3000
